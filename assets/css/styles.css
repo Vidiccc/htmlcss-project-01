@@ -635,7 +635,7 @@ footer .social a {
 }
 
 footer .social a:hover {
-    opacity: 0.8;
+    background-color: #ebebeb;
 }
 
 footer .row:last-child {
