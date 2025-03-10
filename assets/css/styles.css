@@ -133,8 +133,10 @@ a {
 /* =============== Hero =================== */
 
 .hero {
-    padding-top: 118px;
-    height: calc(100vh - 88px);
+    display: flex;
+    align-items: center;
+    padding-bottom: 84px;
+    height: calc(100vh - 87px);
     background-color: #e6f0ff;
     position: relative;
 }
