@@ -63,6 +63,20 @@ a {
     opacity: 0.9;
 }
 
+/* =============== Scrolling Behavior =================== */
+#services {
+    scroll-margin-top: 116px;
+}
+#features {
+    scroll-margin-top: 12px;
+}
+#resources {
+    scroll-margin-top: 116px;
+}
+#contact {
+    scroll-margin-top: 94px;
+}
+
 /* =============== Header =================== */
 .sticky-header {
     padding-top: 24px;
