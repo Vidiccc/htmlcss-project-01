@@ -10,6 +10,11 @@ html {
     font-size: 62.5%;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
@@ -59,15 +64,18 @@ a {
 }
 
 /* =============== Header =================== */
-body > .header {
-    height: 100vh;
+.sticky-header {
+    padding-top: 24px;
+    position: sticky;
+    top: -24px;
+    z-index: 1;
     background-color: #e6f0ff;
-    position: relative;
 }
 
 .navbar {
     display: flex;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
     align-items: center;
 }
 
@@ -110,8 +118,14 @@ body > .header {
 
 /* =============== Hero =================== */
 
+.hero {
+    padding-top: 118px;
+    height: calc(100vh - 88px);
+    background-color: #e6f0ff;
+    position: relative;
+}
+
 .hero .info {
-    margin-top: 130px;
     width: 50.4%;
 }
 
@@ -194,7 +208,7 @@ body > .header {
 /* =============== Guides =================== */
 .guides {
     margin-top: 40px;
-    padding: 79px 0;
+    padding: 93px 0 79px;
 }
 
 .guides h2 {
